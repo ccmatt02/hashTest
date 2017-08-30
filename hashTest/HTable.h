@@ -3,9 +3,11 @@
 
 #include <vector>
 #include <string>
+#include <fstream>
 #include "HNode.h"
 
-const std::string dumpFile = "tableDump.html";
+const std::string dumpFileName = "tableDump.html";
+
 
 class HTable {
 public:
